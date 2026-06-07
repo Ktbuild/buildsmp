@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC Build Network</title>
+
+```
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial,sans-serif;
+    }
+
+    body{
+        background:#0f172a;
+        color:white;
+    }
+
+    header{
+        background:#111827;
+        padding:20px;
+        text-align:center;
+        border-bottom:3px solid #00ff88;
+    }
+
+    header h1{
+        color:#00ff88;
+        font-size:3rem;
+    }
+
+    nav{
+        margin-top:10px;
+    }
+
+    nav a{
+        color:white;
+        text-decoration:none;
+        margin:0 15px;
+        font-weight:bold;
+    }
+
+    .hero{
+        text-align:center;
+        padding:80px 20px;
+    }
+
+    .hero h2{
+        font-size:2.5rem;
+        margin-bottom:15px;
+    }
+
+    .server-ip{
+        background:#1e293b;
+        display:inline-block;
+        padding:15px 25px;
+        border-radius:10px;
+        margin-top:20px;
+        font-size:1.2rem;
+    }
+
+    .ranks{
+        padding:50px 20px;
+        text-align:center;
+    }
+
+    .rank-container{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px;
+    }
+
+    .rank{
+        background:#1e293b;
+        width:280px;
+        padding:20px;
+        border-radius:15px;
+        transition:0.3s;
+    }
+
+    .rank:hover{
+        transform:translateY(-5px);
+    }
+
+    .rank h3{
+        color:#00ff88;
+        margin-bottom:10px;
+    }
+
+    .price{
+        font-size:2rem;
+        margin:15px 0;
+    }
+
+    .buy-btn{
+        display:inline-block;
+        padding:12px 20px;
+        background:#00ff88;
+        color:black;
+        text-decoration:none;
+        border-radius:8px;
+        font-weight:bold;
+    }
+
+    .payment{
+        text-align:center;
+        padding:50px 20px;
+    }
+
+    .upi-box{
+        background:#1e293b;
+        display:inline-block;
+        padding:20px;
+        border-radius:15px;
+        margin-top:20px;
+    }
+
+    .form-section{
+        text-align:center;
+        padding:50px 20px;
+    }
+
+    form{
+        max-width:500px;
+        margin:auto;
+    }
+
+    input, select{
+        width:100%;
+        padding:12px;
+        margin:10px 0;
+        border:none;
+        border-radius:8px;
+    }
+
+    button{
+        background:#00ff88;
+        border:none;
+        padding:12px 20px;
+        border-radius:8px;
+        font-weight:bold;
+        cursor:pointer;
+    }
+
+    footer{
+        background:#111827;
+        text-align:center;
+        padding:20px;
+        margin-top:50px;
+    }
+</style>
+```
+
+</head>
+<body>
+
+<header>
+    <h1>MC BUILD NETWORK</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#store">Store</a>
+        <a href="#payment">Payment</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h2>Welcome to MC Build Network</h2>
+    <p>Best Minecraft Survival & Lifesteal Experience</p>
+
+```
+<div class="server-ip">
+    Server IP: play.mcbuild.xyz
+</div>
+```
+
+</section>
+
+<section class="ranks" id="store">
+    <h2>Server Store</h2>
+    <br>
+
+```
+<div class="rank-container">
+
+    <div class="rank">
+        <h3>VIP Rank</h3>
+        <p>Special Commands</p>
+        <p>Colored Chat</p>
+        <div class="price">₹49</div>
+        <a href="#payment" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="rank">
+        <h3>TITAN Rank</h3>
+        <p>Exclusive Kit</p>
+        <p>Extra Homes</p>
+        <div class="price">₹99</div>
+        <a href="#payment" class="buy-btn">Buy Now</a>
+    </div>
+
+    <div class="rank">
+        <h3>GOD Rank</h3>
+        <p>All Titan Perks</p>
+        <p>Premium Features</p>
+        <div class="price">₹199</div>
+        <a href="#payment" class="buy-btn">Buy Now</a>
+    </div>
+
+</div>
+```
+
+</section>
+
+<section class="payment" id="payment">
+    <h2>UPI Payment</h2>
+
+```
+<div class="upi-box">
+    <h3>UPI ID</h3>
+    <p>7300908683@upi</p>
+
+    <br>
+
+    <p>
+        Scan QR from your UPI app or send payment to the UPI ID above.
+    </p>
+</div>
+```
+
+</section>
+
+<section class="form-section">
+    <h2>Purchase Form</h2>
+
+```
+<form>
+    <input type="text" placeholder="Minecraft Username" required>
+
+    <select required>
+        <option>Select Rank</option>
+        <option>VIP</option>
+        <option>TITAN</option>
+        <option>GOD</option>
+    </select>
+
+    <input type="text" placeholder="UPI Transaction ID" required>
+
+    <button type="submit">Submit Purchase</button>
+</form>
+```
+
+</section>
+
+<footer>
+    © 2026 MC Build Network
+</footer>
+
+</body>
+</html>
